@@ -3,8 +3,8 @@
     
      margin: 0 auto; /* Centra el contenido horizontalmente */
     padding: 100px px;  /* Añade espacio alrededor del contenido */
-    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del contenido con transparencia */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el contenido */
+    background-color: rgba(0, 0, 0, 0.829); /* Color de fondo del contenido con transparencia */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.89); /* Sombra para resaltar el contenido */
   }
   
   
@@ -40,7 +40,44 @@
     background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco semi-transparente al hacer clic */
   }
 
-  
+  #horas {
+   
+    color: white; /* Color del texto */
+    padding: 1px 30px; /* Espacio alrededor del texto */
+    /*text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    /*font-size: 16px; /* Tamaño de fuente */
+   /* margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cambiar el cursor a un puntero al pasar el ratón */
+    border-radius: 10px; /* Borde redondeado */
+  }
+
+
+  #cont1 {
+    padding: 10px 10px; /* Espacio alrededor del texto */
+    /*width: 300px; /* Ancho del div */
+    /*border: 1px solid #ccc; /* Borde para visualización */
+    /*padding: px; /* Espaciado interno para visualización */
+    text-align: right; /* Alineación del texto a la derecha */
+}
+
+#cont2 {
+  padding: 10px 10px; /* Espacio alrededor del texto */
+  /*width: 300px; /* Ancho del div */
+  /*border: 1px solid #ccc; /* Borde para visualización */
+  /*padding: px; /* Espaciado interno para visualización */
+ /* text-align: right; /* Alineación del texto a la derecha */
+}
+
+
+
+
+ 
+
+
+
+
   
   
   
