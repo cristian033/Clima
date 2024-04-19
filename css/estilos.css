@@ -1,139 +1,177 @@
 .contenido {
-    
- margin: 0 auto; /* Centra el contenido horizontalmente */
- padding: 100px px;  /* Añade espacio alrededor del contenido */
- background-color: rgba(0, 0, 0, 0.87); /* Color de fondo del contenido con transparencia */
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.89); /* Sombra para resaltar el contenido */
+
+  margin: 0 auto;
+  /* Centra el contenido horizontalmente */
+  padding: 100px px;
+  /* Añade espacio alrededor del contenido */
+  background-color: rgba(0, 0, 0, 0.87);
+  /* Color de fondo del contenido con transparencia */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.89);
+  /* Sombra para resaltar el contenido */
 }
 
 .gris {
-  color: rgb(136, 136, 136); /* Cambia el color del texto a rojo */
+  color: rgb(136, 136, 136);
+  /* Cambia el color del texto a rojo */
 }
 
 .grisbarra {
-  color: rgb(59, 59, 59); /* Cambia el color del texto a rojo */
+  color: rgb(59, 59, 59);
+  /* Cambia el color del texto a rojo */
 }
 
 
 .textgran {
-  font-size: 24px; /* Tamaño de fuente grande */
+  font-size: 24px;
+  /* Tamaño de fuente grande */
 }
 
 .numgran {
-  font-size: 40px; /* Tamaño de fuente grande */
+  font-size: 40px;
+  /* Tamaño de fuente grande */
 }
 
 
 
 .centrado {
-  display: inline-block; /* Hace que los spans se comporten como elementos en línea */
-  margin: 0 10px; /* Añade un margen entre los spans */
+  display: inline-block;
+  /* Hace que los spans se comporten como elementos en línea */
+  margin: 0 10px;
+  /* Añade un margen entre los spans */
 }
 
 
 div {
 
- color: white; /* Color del texto */
- 
- 
- text-decoration: none; /* Sin subrayado */
- /*display: inline-block; /* Mostrar como bloque en línea */
- /*font-size: 16px; /* Tamaño de fuente */
-/* margin: 4px 2px; /* Margen */
- /*cursor: pointer; /* Cambiar el cursor a un puntero al pasar el ratón */
- /*border-radius: 10px; /* Borde redondeado */
+  color: white;
+  /* Color del texto */
+
+
+  text-decoration: none;
+  /* Sin subrayado */
+  /*display: inline-block; /* Mostrar como bloque en línea */
+  /*font-size: 16px; /* Tamaño de fuente */
+  /* margin: 4px 2px; /* Margen */
+  /*cursor: pointer; /* Cambiar el cursor a un puntero al pasar el ratón */
+  /*border-radius: 10px; /* Borde redondeado */
 }
 
 #miBoton {
- background-color: transparent; /* Fondo transparente */
- border: 2px solid transparent; /* Borde transparente */
- color: white; /* Color del texto */
- /*padding: 5px 30px; /* Espacio alrededor del texto */
- /*text-align: center; /* Centrar el texto */
- text-decoration: none; /* Sin subrayado */
- display: inline-block; /* Mostrar como bloque en línea */
- font-size: 16px; /* Tamaño de fuente */
- margin: 4px 2px; /* Margen */
- cursor: pointer; /* Cambiar el cursor a un puntero al pasar el ratón */
- border-radius: 10px; /* Borde redondeado */
+  background-color: transparent;
+  /* Fondo transparente */
+  border: 2px solid transparent;
+  /* Borde transparente */
+  color: white;
+  /* Color del texto */
+  /*padding: 5px 30px; /* Espacio alrededor del texto */
+  /*text-align: center; /* Centrar el texto */
+  text-decoration: none;
+  /* Sin subrayado */
+  display: inline-block;
+  /* Mostrar como bloque en línea */
+  font-size: 16px;
+  /* Tamaño de fuente */
+  margin: 4px 2px;
+  /* Margen */
+  cursor: pointer;
+  /* Cambiar el cursor a un puntero al pasar el ratón */
+  border-radius: 10px;
+  /* Borde redondeado */
 }
 
 #miBoton:active {
- background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco semi-transparente al hacer clic */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Fondo blanco semi-transparente al hacer clic */
 }
 
 #horas {
 
- color: white; /* Color del texto */
- padding: 1px 30px; /* Espacio alrededor del texto */
- /*text-align: center; /* Centrar el texto */
- text-decoration: none; /* Sin subrayado */
- display: inline-block; /* Mostrar como bloque en línea */
- /*font-size: 16px; /* Tamaño de fuente */
-/* margin: 4px 2px; /* Margen */
- cursor: pointer; /* Cambiar el cursor a un puntero al pasar el ratón */
- border-radius: 10px; /* Borde redondeado */
+  color: white;
+  /* Color del texto */
+  padding: 1px 30px;
+  /* Espacio alrededor del texto */
+  /*text-align: center; /* Centrar el texto */
+  text-decoration: none;
+  /* Sin subrayado */
+  display: inline-block;
+  /* Mostrar como bloque en línea */
+  /*font-size: 16px; /* Tamaño de fuente */
+  /* margin: 4px 2px; /* Margen */
+  cursor: pointer;
+  /* Cambiar el cursor a un puntero al pasar el ratón */
+  border-radius: 10px;
+  /* Borde redondeado */
 }
 
 
 #cont1 {
- padding: 10px 10px; /* Espacio alrededor del texto */
- /*width: 300px; /* Ancho del div */
- /*border: 1px solid #ccc; /* Borde para visualización */
- /*padding: px; /* Espaciado interno para visualización */
- text-align: right; /* Alineación del texto a la derecha */
+  padding: 10px 10px;
+  /* Espacio alrededor del texto */
+  /*width: 300px; /* Ancho del div */
+  /*border: 1px solid #ccc; /* Borde para visualización */
+  /*padding: px; /* Espaciado interno para visualización */
+  text-align: right;
+  /* Alineación del texto a la derecha */
 }
 
 #cont2 {
-padding: 10px 10px; /* Espacio alrededor del texto */
-/*width: 300px; /* Ancho del div */
-/*border: 1px solid #ccc; /* Borde para visualización */
-/*padding: px; /* Espaciado interno para visualización */
-/* text-align: right; /* Alineación del texto a la derecha */
+  padding: 10px 10px;
+  /* Espacio alrededor del texto */
+  /*width: 300px; /* Ancho del div */
+  /*border: 1px solid #ccc; /* Borde para visualización */
+  /*padding: px; /* Espaciado interno para visualización */
+  /* text-align: right; /* Alineación del texto a la derecha */
 }
 
 
 .miDivs {
-  width: 11.8%;
+  width: 12.5%;
   text-align: center;
 }
 
 .botons {
-  width: 12%;
+  width: 12.1%;
   text-align: center;
 }
 
 .imgprin {
   width: 7%;
-  
+
 }
+
 .tempnum {
   width: 6%;
-  
+
 }
+
 .cyf {
   width: 5%;
-  
+
 }
+
 .infodia {
   width: 48%;
-  
+
 }
+
 .miDiv2 {
   width: 70px;
   height: 70px;
-  
-  margin-left: 10px; /* Ajusta este valor para mover el div hacia la derecha */
+
+  margin-left: 10px;
+  /* Ajusta este valor para mover el div hacia la derecha */
 }
 
 
 .movup {
-  margin-top: -10px; /* Desplaza el div 20px hacia arriba */
+  margin-top: -10px;
+  /* Desplaza el div 20px hacia arriba */
 }
 
-.zoomtempprewin{
+.zoomtempprewin {
 
-  font-size: 19px; /* Tamaño de fuente grande */
+  font-size: 19px;
+  /* Tamaño de fuente grande */
 
 }
 
