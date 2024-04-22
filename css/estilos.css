@@ -130,7 +130,7 @@ div {
 }
 
 .botons {
-  width: 12.1%;
+  width: 11.99%;
   text-align: center;
 }
 
@@ -140,17 +140,17 @@ div {
 }
 
 .tempnum {
-  width: 6%;
+  width: 9%;
 
 }
 
 .cyf {
-  width: 5%;
+  width: 8%;
 
 }
 
 .infodia {
-  width: 48%;
+  width: 31%;
 
 }
 
@@ -175,6 +175,25 @@ div {
 
 }
 
+
+.diahora{
+  position: absolute;
+  left: 935px; /* Ajusta la posición izquierda */
+  top: 30px; /* Ajusta la posición superior */
+}
+
+.estadoclim{
+  
+  position: absolute;
+  left: 1030px; /* Ajusta la posición izquierda */
+  top: 50px; /* Ajusta la posición superior */
+  
+}
+
+
+.miDiv4 {
+  margin-left: 50px; 
+}
 
 
 

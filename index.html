@@ -17,38 +17,34 @@
                 <div class="row">
 
                     <div id="cont2" class="f1c1 miDiv2 imgprin movup col-1 col-sm- col-md-">
-                        <img src="imagenes/imgprin.png" alt="Descripción de la imagen">
+                        <img id="imagen-clima" src="imagenes/default.png" alt="Descripción de la imagen">
                     </div>
+                    
                     <div id="cont2" class="f1c2 tempnum movup  col-1 col-sm- col-md-">
 
-                        <div class="numgran">18</div>
+                        <div class="numgran"></div>
 
                     </div>
                     <div id="cont2" class="f1c3  cyf    col-1 col-sm- col-md-">
                         ºC<span class="gris">|ºF</span>
                     </div>
-                    <div id="cont2" class="f1c3   col-2 col-sm- col-md-">
-                        <span class="gris">Precipitation: 11%<br></span>
-                        <span class="gris">Humidity: 79%<br></span>
-                        <span class="gris">Wind: 14 km/h<br></span>
+                    <div id="cont2" class="f1c3 col-3 col-sm- col-md-">
+                        <span class="gris precipitacion"></span><br>
+                        <span class="gris humedad"></span><br>
+                        <span class="gris viento"></span><br>
                     </div>
+                    
+                    
 
-                    <div id="cont2" class="f1c3 infodia col-5 col-sm- col-md-">
+                 <div id="cont2" class="f1c3 infodia col-5 col-sm- col-md-">
 
                     </div>
-
-                    <div id="cont1" class="f1c3 miDiv4 movup  col-2 col-sm- col-md-">
-
+                    <div id="cont1" class="f1c3 movup  col-2 col-sm- col-md-">
                         <span class="textgran"> Weather<br> </span>
-
-
-                        <span class="gris"> Thursday 10:00<br> </span>
-
-
-
-                        <span class="gris"> Mostly cloudy<br> </span>
-
+                        <span class="gris diahora dia-hora"> <br> </span>
+                        <span class="gris estadoclim estado-clima"> <br> </span>
                     </div>
+                    
                 </div>
 
 
@@ -60,12 +56,7 @@
 
                 </div>
 
-                <div class="row">
-                    <div class="col-12 col-sm- col-md-  "><img width="1120" height="120" src="imagenes/clima.png">
-
-
-                    </div>
-                </div>
+                
 
 
 
@@ -219,15 +210,7 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
+    <script src="api.js"></script>
 </body>
 
 </html>
