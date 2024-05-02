@@ -60,50 +60,50 @@ window.addEventListener('load', () => {
                         estadoClimaValor.textContent = estadoClima;
 
                         // Obtener el día quinto antes del actual
-let quintoDiaAntes = new Date(diaHora);
-quintoDiaAntes.setDate(diaHora.getDate() - 5);
-let quintoDiaAntesValor = traducciones[quintoDiaAntes.toLocaleDateString('en-US', { weekday: 'long' })];
+                        let quintoDiaAntes = new Date(diaHora);
+                        quintoDiaAntes.setDate(diaHora.getDate() - 5);
+                        let quintoDiaAntesValor = traducciones[quintoDiaAntes.toLocaleDateString('en-US', { weekday: 'long' })];
 
-// Reemplazar el texto del primer div con las 3 primeras letras del quinto día antes del actual
-document.querySelectorAll('.botons')[0].textContent = quintoDiaAntesValor.slice(0, 3);
+                        // Reemplazar el texto del primer div con las 3 primeras letras del quinto día antes del actual
+                        document.querySelectorAll('.botons')[0].textContent = quintoDiaAntesValor.slice(0, 3);
 
-// Obtener el día cuarto antes del actual
-let cuartoDiaAntes = new Date(diaHora);
-cuartoDiaAntes.setDate(diaHora.getDate() - 4);
-let cuartoDiaAntesValor = traducciones[cuartoDiaAntes.toLocaleDateString('en-US', { weekday: 'long' })];
+                        // Obtener el día cuarto antes del actual
+                        let cuartoDiaAntes = new Date(diaHora);
+                        cuartoDiaAntes.setDate(diaHora.getDate() - 4);
+                        let cuartoDiaAntesValor = traducciones[cuartoDiaAntes.toLocaleDateString('en-US', { weekday: 'long' })];
 
-// Reemplazar el texto del segundo div con las 3 primeras letras del cuarto día antes del actual
-document.querySelectorAll('.botons')[1].textContent = cuartoDiaAntesValor.slice(0, 3);
+                        // Reemplazar el texto del segundo div con las 3 primeras letras del cuarto día antes del actual
+                        document.querySelectorAll('.botons')[1].textContent = cuartoDiaAntesValor.slice(0, 3);
 
-// Obtener el día tercero antes del actual
-let tercerDiaAntes = new Date(diaHora);
-tercerDiaAntes.setDate(diaHora.getDate() - 3);
-let tercerDiaAntesValor = traducciones[tercerDiaAntes.toLocaleDateString('en-US', { weekday: 'long' })];
+                        // Obtener el día tercero antes del actual
+                        let tercerDiaAntes = new Date(diaHora);
+                        tercerDiaAntes.setDate(diaHora.getDate() - 3);
+                        let tercerDiaAntesValor = traducciones[tercerDiaAntes.toLocaleDateString('en-US', { weekday: 'long' })];
 
-// Reemplazar el texto del tercer div con las 3 primeras letras del tercer día antes del actual
-document.querySelectorAll('.botons')[2].textContent = tercerDiaAntesValor.slice(0, 3);
+                        // Reemplazar el texto del tercer div con las 3 primeras letras del tercer día antes del actual
+                        document.querySelectorAll('.botons')[2].textContent = tercerDiaAntesValor.slice(0, 3);
 
-// Obtener el día dos días antes del actual
-let dosDiasAntes = new Date(diaHora);
-dosDiasAntes.setDate(diaHora.getDate() - 2);
-let dosDiasAntesValor = traducciones[dosDiasAntes.toLocaleDateString('en-US', { weekday: 'long' })];
+                        // Obtener el día dos días antes del actual
+                        let dosDiasAntes = new Date(diaHora);
+                        dosDiasAntes.setDate(diaHora.getDate() - 2);
+                        let dosDiasAntesValor = traducciones[dosDiasAntes.toLocaleDateString('en-US', { weekday: 'long' })];
 
-// Reemplazar el texto del cuarto div con las 3 primeras letras del día dos días antes del actual
-document.querySelectorAll('.botons')[3].textContent = dosDiasAntesValor.slice(0, 3);
+                        // Reemplazar el texto del cuarto div con las 3 primeras letras del día dos días antes del actual
+                        document.querySelectorAll('.botons')[3].textContent = dosDiasAntesValor.slice(0, 3);
 
-// Obtener el día un día antes del actual
-let diaAnterior = new Date(diaHora);
-diaAnterior.setDate(diaHora.getDate() - 1);
-let diaAnteriorValor = traducciones[diaAnterior.toLocaleDateString('en-US', { weekday: 'long' })];
+                        // Obtener el día un día antes del actual
+                        let diaAnterior = new Date(diaHora);
+                        diaAnterior.setDate(diaHora.getDate() - 1);
+                        let diaAnteriorValor = traducciones[diaAnterior.toLocaleDateString('en-US', { weekday: 'long' })];
 
-// Reemplazar el texto del quinto div con las 3 primeras letras del día anterior al actual
-document.querySelectorAll('.botons')[4].textContent = diaAnteriorValor.slice(0, 3);
+                        // Reemplazar el texto del quinto div con las 3 primeras letras del día anterior al actual
+                        document.querySelectorAll('.botons')[4].textContent = diaAnteriorValor.slice(0, 3);
 
-// Obtener el día actual
-let diaActualValor = traducciones[diaHora.toLocaleDateString('en-US', { weekday: 'long' })];
+                        // Obtener el día actual
+                        let diaActualValor = traducciones[diaHora.toLocaleDateString('en-US', { weekday: 'long' })];
 
-// Reemplazar el texto del sexto div con las 3 primeras letras del día actual
-document.querySelectorAll('.botons')[5].textContent = diaActualValor.slice(0, 3);
+                        // Reemplazar el texto del sexto div con las 3 primeras letras del día actual
+                        document.querySelectorAll('.botons')[5].textContent = diaActualValor.slice(0, 3);
 
 
 

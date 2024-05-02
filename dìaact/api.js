@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
     let estadoClimaValor = document.querySelector('.estado-clima');
     let imagenPrincipal = document.getElementById('imagen-clima');
 
-        
+
 
     const traducciones = {
         'Monday': 'Lun',
@@ -33,7 +33,7 @@ window.addEventListener('load', () => {
             lon = posicion.coords.longitude;
             lat = posicion.coords.latitude;
 
-            
+
 
             const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&lang=es&units=metric&appid=b1a519fdb6566e96051641bd9720b887`;
 
@@ -124,8 +124,8 @@ window.addEventListener('load', () => {
         });
     }
 
-     // Agregar una función para actualizar la información basada en la selección del botón
-     function actualizarInformacion(diaSeleccionado) {
+    // Agregar una función para actualizar la información basada en la selección del botón
+    function actualizarInformacion(diaSeleccionado) {
         // Obtener el día actual
         let diaActual = new Date();
         let diaActualNombre = traducciones[diaActual.toLocaleDateString('en-US', { weekday: 'long' })];
@@ -147,11 +147,11 @@ window.addEventListener('load', () => {
             // Aquí puedes manejar el caso en el que el día seleccionado no sea el actual
             // Por ejemplo, puedes mostrar un mensaje de error o simplemente no hacer nada
         }
-    }   
+    }
 
     // Agregar controlador de eventos a los botones para resaltar el botón presionado
     document.querySelectorAll('.botons').forEach(button => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function () {
             // Elimina la clase 'active' de todos los botones
             document.querySelectorAll('.botons').forEach(btn => {
                 btn.classList.remove('active');
